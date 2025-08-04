@@ -1,7 +1,7 @@
 /* GET home page. */
-router.get('/', function(req, res) {
+const index = (req, res) => {
   res.render('index', { title: 'Welcome To Pavani....' });
-});
+};
 
 module.exports = {
     index
